@@ -3,12 +3,13 @@
 import { Card } from "@/components/ui/card"
 
 const agborPhrases = [
-  { phrase: "Nmu Agbor alua ni", translation: "Learning Agbor is beautiful" },
-  { phrase: "Nmu Agbor ekelem onu", translation: "Learning Agbor opens mouths/voices" },
-  { phrase: "Nmu Agbor mbele ni", translation: "Agbor learning is important" },
-  { phrase: "Ali agbor ri nma", translation: "Agbor language is good" },
-  { phrase: "Ihien ri nma bia ni enyi le", translation: "Knowledge is wealth that cannot be stolen" },
-  { phrase: "Oselobue nonye ni onu le", translation: "A person who doesn't speak their language has lost their identity" },
+  { phrase: "Nmu agbor alua ni", translation: "Agbor children you are all welcome" },
+  { phrase: "Nmu agbor ekelem onu", translation: "Agbor children I greet you all" },
+  { phrase: "Nmu Agbor mbele ni", translation: "Agbor children I salute you all" },
+  { phrase: "Ihien ri nma bia ni enyi le", translation: "Let good things come to each and everyone of us" },
+  { phrase: "Oselobue nonye ni onu le", translation: "May God be with each and everyone of you" },
+  { phrase: "Uwaoma ni oooooo", translation: "I wish you all a better world" },
+  { phrase: "Ali Agbor ari ka nma", translation: "The land of Agbor is very beautiful" },
 ]
 
 export function Languages() {
@@ -40,7 +41,7 @@ export function Languages() {
             </div>
 
             <div className="border-t border-primary/20 pt-8">
-              <h4 className="text-2xl font-bold text-foreground mb-6">Agbor Language Proverbs & Sayings</h4>
+              <h4 className="text-2xl font-bold text-foreground mb-6">Agbor Language Greetings & Blessings</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {agborPhrases.map((item, idx) => (
                   <div key={idx} className="bg-card border border-primary/20 rounded-lg p-5 space-y-2">
