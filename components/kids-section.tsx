@@ -11,12 +11,7 @@ export function KidsSection() {
       description:
         'Discover colorful beads, beautiful clothes, and amazing outfits worn by Agbor people. Each pattern and color tells a story!',
     },
-    {
-      icon: '🗣️',
-      title: 'Speak Like a Champion',
-      description:
-        'Master Agbor words that make your mouth dance! Say “Ofe wa nma” like a true Agbor child.',
-    },
+   
     {
       icon: '🤝',
       title: 'Connect with Your Roots',
@@ -38,10 +33,10 @@ export function KidsSection() {
     { english: 'Nose', agbor: 'Imi', icon: '👃' },
     { english: 'Mouth', agbor: 'Ọ̀nu', icon: '👄' },
     { english: 'Hair', agbor: 'Ntutu', icon: '💇' },
-    { english: 'Hand', agbor: 'Eka', icon: '✋' },
+    { english: 'Hand', agbor: 'Eka', icon: '🤳' },
     { english: 'Leg', agbor: 'Ọ̀ku', icon: '🦵' },
-    { english: 'Finger', agbor: 'Nkpisi-eka', icon: '☝️' },
-    { english: 'Toe', agbor: 'Nkpisi-ọ̀ku', icon: '🦶' },
+    { english: 'Finger', agbor: 'Nkpisi-ọ̀ku', icon: '☝️' },
+    { english: 'Toe', agbor: 'Nkpisi-eka', icon: '🦶' },
     { english: 'Stomach', agbor: 'Efọ̀', icon: '🤰' },
   ]
 
@@ -112,7 +107,7 @@ export function KidsSection() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-8">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
-                Body Parts in Agbọ̀r — can you learn them all?
+                Body Parts in Agbor — can you learn them all?
               </h3>
               <p className="text-muted-foreground">
                 Point to each part of your body as you say the word!

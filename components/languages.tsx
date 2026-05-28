@@ -3,13 +3,13 @@
 import { Card } from "@/components/ui/card"
 
 const agborPhrases = [
-  { phrase: "Nmu agbọ̀r alua ni", translation: "Agbor children you are welcome" },
-  { phrase: "Nmu agbọ̀r ekelem ọ̀nu", translation: "Agbor children I greet you all" },
-  { phrase: "Nmu Agbọ̀r mbele ni", translation: "Agbor children I salute you all" },
+  { phrase: "Nmu agbor alua ni", translation: "Agbor children you are welcome" },
+  { phrase: "Nmu agbor ekelem ọ̀nu", translation: "Agbor children I greet you all" },
+  { phrase: "Nmu Agbor mbele ni", translation: "Agbor children I salute you all" },
   { phrase: "Ihien ri nma bia ni enyi le", translation: "Let good things come to each and everyone of us" },
-  { phrase: "ọ̀selọ̀bue nọ̀nye ni onu le", translation: "May God be with each and everyone of you" },
+  { phrase: "Oselobue nọ̀nye ni onu le", translation: "May God be with each and everyone of you" },
   { phrase: "Uwaọ̀ma ni oooooo", translation: "I wish you all a better world" },
-  { phrase: "Ali Agbọ̀r ari ka nma", translation: "The land of Agbor is very beautiful" },
+  { phrase: "Ali Agbor ari ka nma", translation: "The land of Agbor is very beautiful" },
 ]
 
 export function Languages() {
@@ -37,17 +37,17 @@ export function Languages() {
             <p className="text-sm font-semibold text-primary uppercase tracking-wider">Our motivation</p>
           </div>
           <blockquote className="border-l-4 border-primary/40 pl-5 mb-5 font-serif text-lg leading-relaxed text-foreground italic">
-            We have noticed that Agbọ̀r children born and bred in Agbọ̀r cannot speak Agbọ̀r fluently — which is a disaster.
-            Most Agbọ̀r children born in other parts of Nigeria and in the diaspora cannot speak Agbọ̀r at all.
+            We have noticed that Agbor children born and bred in Agbor cannot speak Agbor fluently — which is a disaster.
+            Most Agbor children born in other parts of Nigeria and in the diaspora cannot speak Agbor at all.
           </blockquote>
           <p className="text-muted-foreground text-base leading-relaxed mb-6">
-            Your language is your first interaction with your culture, and every Agbọ̀r child and parent must be proud of their heritage.
+            Your language is your first interaction with your culture, and every Agbor child and parent must be proud of their heritage.
             For parents who have not yet passed on this wonderful language to their children, we are here to help your children
-            regain their identity as <span className="font-semibold text-foreground">Ndi-Agbọ̀r</span> — learning to speak
-            Agbọ̀r fluently in a short time.
+            regain their identity as <span className="font-semibold text-foreground">Ndi-Agbor</span> — learning to speak
+            Agbor fluently in a short time.
           </p>
           <div className="flex flex-wrap gap-2">
-            {["Born in Agbọ̀r", "Diaspora children", "Ndi-Agbọ̀r identity"].map((tag) => (
+            {["Born in Agbor", "Diaspora children", "Ndi-Agbor identity"].map((tag) => (
               <span
                 key={tag}
                 className="text-xs px-3 py-1.5 rounded-full border border-primary/20 text-muted-foreground bg-muted/30"
@@ -63,7 +63,7 @@ export function Languages() {
           <div className="space-y-8">
             <div>
               <p className="text-6xl mb-4">🏛️</p>
-              <h3 className="text-4xl lg:text-5xl font-bold text-foreground mb-3">Nmu Ágbọ̀r</h3>
+              <h3 className="text-4xl lg:text-5xl font-bold text-foreground mb-3">Nmu Ágbor</h3>
               <p className="text-lg text-primary font-semibold mb-4">The Agbor Language of Delta State</p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Agbor is the beautiful and distinctive language spoken by the Agbor people of Delta State, Nigeria.
