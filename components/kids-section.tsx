@@ -35,8 +35,8 @@ export function KidsSection() {
     { english: 'Hair', agbor: 'Ntutu', icon: '💇' },
     { english: 'Hand', agbor: 'Eka', icon: '🤳' },
     { english: 'Leg', agbor: 'Ọ̀ku', icon: '🦵' },
-    { english: 'Finger', agbor: 'Nkpisi-ọ̀ku', icon: '☝️' },
-    { english: 'Toe', agbor: 'Nkpisi-eka', icon: '🦶' },
+    { english: 'Finger', agbor: 'Nkpisin-ọ̀ku', icon: '☝️' },
+    { english: 'Toe', agbor: 'Nkpisin-eka', icon: '🦶' },
     { english: 'Stomach', agbor: 'Efọ̀', icon: '🤰' },
   ]
 
