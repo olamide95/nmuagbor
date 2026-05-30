@@ -44,7 +44,7 @@ export function ChiefInstructor() {
                 <div className="border-l-4 border-primary pl-4">
                   <p className="font-semibold text-foreground mb-1">Expertise</p>
                   <p className="text-muted-foreground">
-                    Specializing in Agbor and Igbo languages with years of experience teaching both children and adults
+                    Specializing in Agbor languages with years of experience teaching both children and adults
                   </p>
                 </div>
 
